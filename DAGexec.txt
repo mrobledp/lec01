@@ -1,0 +1,12 @@
+POST
+
+http://localhost:8090/api/v1/dags/adag2/dagRuns
+
+
+Body
+{
+"dag_run_id": "MARIO01",
+"conf": {"Clave": "archivoParaCrear.txt"}
+}
+
+Basic autorization
